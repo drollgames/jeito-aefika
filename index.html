@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>AFK</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/static/main-css.css">
+    </head>
+    <body bgcolor="#23242a">
+        <p class="tile">
+            <b>AFK COUNT</b>
+            </p>
+        <div class="menu">
+            <a href="/query/api/v1">Api</a>   |   <a href="/query/v1/iframe">iframe</a>
+            <br>
+            <br>
+        <button onclick="start();" class="bg-green">Iniciar</button>
+        <button onclick="pause();" class="bg-yellow">Pausar</button>
+        <button onclick="stop();" class="bg-red">Resetar</button>
+        <h1 id="counter">00:00:00</h1>
+    </div>
+    <br><br>
+        </div>
+        <script src="/query/v1/cron-v1.js"></script>
+    </body>
+</html>
+
+<!--- 5865F2 --->
